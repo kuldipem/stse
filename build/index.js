@@ -1,5 +1,5 @@
 /*!
- * 
+ *
  *   @kuldipem/stse v1.0.8
  *   https://github.com/kuldipem/stse
  *
