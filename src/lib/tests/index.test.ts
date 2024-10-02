@@ -1,5 +1,9 @@
-import MyLibrary from '../index';
+import { selectStyle, buildStyle } from '../index';
 
-it('Runs without crashing', () => {
-  new MyLibrary();
+it('selectStyle', () => {
+    expect(selectStyle(true, {}, {})).toEqual({})
+});
+
+it('buildStyle', () => {
+  expect(buildStyle(true, '', '', '')).toEqual({'':''})
 });

@@ -1,14 +1,14 @@
-import "./index.css";
-
-class MyLibrary {
-  constructor() {
-    console.log("Library constructor loaded");
-  }
-
-  myMethod = (): boolean => {
-    console.log("Library method fired");
-    return true;
-  };
+const selectStyle = (condition: boolean, styleOnPass: Object, styleOnFail: Object): Object => {
+	return condition ? styleOnPass : styleOnFail;
 }
 
-export default MyLibrary;
+const buildStyle = (condition: boolean, styleKey: string, styleValueOnPass: string | number, styleValueOnFail: string | number): Object => {
+	return {[styleKey]: condition ? styleValueOnPass : styleValueOnFail};
+}
+
+export {
+  selectStyle,
+	selectStyle as sest,
+	buildStyle,
+	buildStyle as bust,
+}

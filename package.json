@@ -1,7 +1,7 @@
 {
-  "name": "@hodgef/ts-library-boilerplate-basic",
-  "version": "1.1.303",
-  "description": "Typescript Minimal Starter Kit for building libraries",
+  "name": "@kuldipem/stse",
+  "version": "1.0.0",
+  "description": "A tiny utility for constructing style conditionally",
   "main": "build/index.js",
   "types": "build/types/index.d.ts",
   "scripts": {
