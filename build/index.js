@@ -1,6 +1,6 @@
 /*!
  * 
- *   @kuldipem/stse v1.0.4
+ *   @kuldipem/stse v1.0.8
  *   https://github.com/kuldipem/stse
  *
  *   Copyright (c) Kuldip Pipaliya (kuldippipaliya.com) and project contributors.
