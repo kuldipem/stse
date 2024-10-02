@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - README.md
       - .gitignore
@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node_version }}
-          
+
       - name: npm install, build, and test
         run: |
           npm install
@@ -32,9 +32,9 @@ jobs:
         run: |
           git reset --hard
           git config --local --list
-          git checkout master
+          git checkout main
           git config user.email "$GH_EMAIL"
-          git config user.name "Francisco Hodge"
+          git config user.name "Kuldip Pipaliya"
         env:
           GH_EMAIL: ${{secrets.GH_EMAIL}}
 
