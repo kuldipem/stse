@@ -1,6 +1,6 @@
 {
   "name": "@kuldipem/stse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny utility for constructing style conditionally",
   "main": "build/index.js",
   "types": "build/types/index.d.ts",
