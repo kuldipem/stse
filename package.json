@@ -40,7 +40,7 @@
     "@types/node": "^22.7.4",
     "@types/ws": "^8.5.12",
     "@typescript-eslint/eslint-plugin": "^8.8.0",
-    "@typescript-eslint/parser": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.2.1",
     "babel-preset-minify": "^0.5.2",
